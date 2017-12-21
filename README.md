@@ -6,6 +6,12 @@ In addition, this application is also a sample application
 created to write articles of Qiita's Advent Calendar.
 Qiita is a technical information sharing service for programmers of Japan.
 
+## Environment
+
+* iOS 10 and later
+* Xcode 9.2
+* macOS 10.12.6 and later
+
 ## First Content
 U can check each `UIFontTextStyle` font.
 
