@@ -19,6 +19,8 @@
 		19726E851FEB5E6C008522F1 /* StudyGroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19726E831FEB5E6C008522F1 /* StudyGroupTableViewCell.swift */; };
 		19726E861FEB5E6C008522F1 /* StudyGroupTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19726E841FEB5E6C008522F1 /* StudyGroupTableViewCell.xib */; };
 		19726E881FEB6151008522F1 /* StudyGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19726E871FEB6151008522F1 /* StudyGroupViewController.swift */; };
+		19726E8A1FEB63DC008522F1 /* StudyGroupAdvancedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19726E891FEB63DC008522F1 /* StudyGroupAdvancedTableViewCell.swift */; };
+		19726E8C1FEB644F008522F1 /* StudyGroupAdvancedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19726E8B1FEB644F008522F1 /* StudyGroupAdvancedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		19726E831FEB5E6C008522F1 /* StudyGroupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyGroupTableViewCell.swift; sourceTree = "<group>"; };
 		19726E841FEB5E6C008522F1 /* StudyGroupTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StudyGroupTableViewCell.xib; sourceTree = "<group>"; };
 		19726E871FEB6151008522F1 /* StudyGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyGroupViewController.swift; sourceTree = "<group>"; };
+		19726E891FEB63DC008522F1 /* StudyGroupAdvancedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyGroupAdvancedTableViewCell.swift; sourceTree = "<group>"; };
+		19726E8B1FEB644F008522F1 /* StudyGroupAdvancedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyGroupAdvancedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,7 @@
 				19726E7A1FEB5A3F008522F1 /* SystemFontViewController.swift */,
 				19726E7C1FEB5BD5008522F1 /* CustomFontViewController.swift */,
 				19726E871FEB6151008522F1 /* StudyGroupViewController.swift */,
+				19726E8B1FEB644F008522F1 /* StudyGroupAdvancedViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -105,6 +110,7 @@
 			children = (
 				19726E831FEB5E6C008522F1 /* StudyGroupTableViewCell.swift */,
 				19726E841FEB5E6C008522F1 /* StudyGroupTableViewCell.xib */,
+				19726E891FEB63DC008522F1 /* StudyGroupAdvancedTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -186,8 +192,10 @@
 				19726E7B1FEB5A3F008522F1 /* SystemFontViewController.swift in Sources */,
 				19726E791FEB5777008522F1 /* TopViewController.swift in Sources */,
 				19726E851FEB5E6C008522F1 /* StudyGroupTableViewCell.swift in Sources */,
+				19726E8C1FEB644F008522F1 /* StudyGroupAdvancedViewController.swift in Sources */,
 				19726E771FEB56F3008522F1 /* StudyGroup.swift in Sources */,
 				19726E601FEB5516008522F1 /* AppDelegate.swift in Sources */,
+				19726E8A1FEB63DC008522F1 /* StudyGroupAdvancedTableViewCell.swift in Sources */,
 				19726E881FEB6151008522F1 /* StudyGroupViewController.swift in Sources */,
 				19726E751FEB56B0008522F1 /* Constant.swift in Sources */,
 			);

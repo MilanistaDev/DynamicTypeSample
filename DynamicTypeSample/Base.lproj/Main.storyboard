@@ -103,16 +103,42 @@
             </objects>
             <point key="canvasLocation" x="825" y="466"/>
         </scene>
-        <!--View Controller-->
+        <!--Study Group Advanced View Controller-->
         <scene sceneID="5jv-iL-LqD">
             <objects>
-                <viewController id="yaP-9O-yey" sceneMemberID="viewController">
+                <viewController id="yaP-9O-yey" customClass="StudyGroupAdvancedViewController" customModule="DynamicTypeSample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="m4J-Pe-xn7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="oEY-7P-cjm">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="studyGroupAdvancedCell" id="AxV-Gi-4Q9" customClass="StudyGroupAdvancedTableViewCell" customModule="DynamicTypeSample" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="AxV-Gi-4Q9" id="Dl9-0X-u7w">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="oEY-7P-cjm" firstAttribute="top" secondItem="IEe-8p-bFi" secondAttribute="top" id="4zo-Pz-qU7"/>
+                            <constraint firstItem="IEe-8p-bFi" firstAttribute="bottom" secondItem="oEY-7P-cjm" secondAttribute="bottom" id="lnV-s7-tN0"/>
+                            <constraint firstItem="oEY-7P-cjm" firstAttribute="leading" secondItem="IEe-8p-bFi" secondAttribute="leading" id="ny7-LX-29x"/>
+                            <constraint firstItem="IEe-8p-bFi" firstAttribute="trailing" secondItem="oEY-7P-cjm" secondAttribute="trailing" id="ssO-yh-CHH"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="IEe-8p-bFi"/>
                     </view>
+                    <connections>
+                        <outlet property="dynamicTypeTableView" destination="oEY-7P-cjm" id="Ne8-1f-6U9"/>
+                        <outlet property="topConstraint" destination="4zo-Pz-qU7" id="HZr-P8-TeM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LeW-vh-FwF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
