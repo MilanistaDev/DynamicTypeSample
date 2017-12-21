@@ -36,6 +36,12 @@ Each UI component can now be wrapped and displayed when setting accessibility.
 
 ![dynamictype_exe_04.gif](https://qiita-image-store.s3.amazonaws.com/0/88266/c0269bf8-b82a-4bfd-6f87-a69f8ff00396.gif "dynamictype_exe_04.gif")
 
+## My Qiita's articles
+So sorry. These articles are written in Japanese.
+If u can, please read by using google translate service and so on.
+* [Dynamic Type 対応について考える](https://qiita.com/MilanistaDev/items/cda50cde2993293ad6c8)
+* [【iOS 11】Dynamic Type でカスタムフォントに対応する](https://qiita.com/MilanistaDev/private/711b96bcb4117ce4e8ec)
+
 ## Contact
 
 If you find some bugs and misses, please notice.  
