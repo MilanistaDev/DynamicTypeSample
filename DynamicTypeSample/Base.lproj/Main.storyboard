@@ -26,17 +26,43 @@
             </objects>
             <point key="canvasLocation" x="-650" y="78"/>
         </scene>
-        <!--View Controller-->
+        <!--Top View Controller-->
         <scene sceneID="CVE-Pd-Xu2">
             <objects>
-                <viewController id="rwg-2f-2Md" sceneMemberID="viewController">
+                <viewController id="rwg-2f-2Md" customClass="TopViewController" customModule="DynamicTypeSample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ycw-nC-Jcf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="EqX-Dx-Du8">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="dynamicTypeListCell" id="gX4-UV-b6e">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gX4-UV-b6e" id="203-lG-8uG">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="EqX-Dx-Du8" firstAttribute="top" secondItem="Hd3-hd-fac" secondAttribute="top" id="Qtn-58-CAh"/>
+                            <constraint firstItem="Hd3-hd-fac" firstAttribute="trailing" secondItem="EqX-Dx-Du8" secondAttribute="trailing" id="RKs-2J-9UP"/>
+                            <constraint firstItem="Hd3-hd-fac" firstAttribute="bottom" secondItem="EqX-Dx-Du8" secondAttribute="bottom" id="dIG-pK-xqR"/>
+                            <constraint firstItem="EqX-Dx-Du8" firstAttribute="leading" secondItem="Hd3-hd-fac" secondAttribute="leading" id="o82-PD-nei"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Hd3-hd-fac"/>
                     </view>
                     <navigationItem key="navigationItem" id="jW7-Jx-Svv"/>
+                    <connections>
+                        <outlet property="dynamicTypeListTableView" destination="EqX-Dx-Du8" id="mCd-2E-a7S"/>
+                        <outlet property="topConstraint" destination="Qtn-58-CAh" id="hIs-O7-PfR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fbl-M8-GaP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
