@@ -15,6 +15,7 @@
 		19726E771FEB56F3008522F1 /* StudyGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19726E761FEB56F3008522F1 /* StudyGroup.swift */; };
 		19726E791FEB5777008522F1 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19726E781FEB5777008522F1 /* TopViewController.swift */; };
 		19726E7B1FEB5A3F008522F1 /* SystemFontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19726E7A1FEB5A3F008522F1 /* SystemFontViewController.swift */; };
+		19726E7D1FEB5BD5008522F1 /* CustomFontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19726E7C1FEB5BD5008522F1 /* CustomFontViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		19726E761FEB56F3008522F1 /* StudyGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyGroup.swift; sourceTree = "<group>"; };
 		19726E781FEB5777008522F1 /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
 		19726E7A1FEB5A3F008522F1 /* SystemFontViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemFontViewController.swift; sourceTree = "<group>"; };
+		19726E7C1FEB5BD5008522F1 /* CustomFontViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFontViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			children = (
 				19726E781FEB5777008522F1 /* TopViewController.swift */,
 				19726E7A1FEB5A3F008522F1 /* SystemFontViewController.swift */,
+				19726E7C1FEB5BD5008522F1 /* CustomFontViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19726E7D1FEB5BD5008522F1 /* CustomFontViewController.swift in Sources */,
 				19726E7B1FEB5A3F008522F1 /* SystemFontViewController.swift in Sources */,
 				19726E791FEB5777008522F1 /* TopViewController.swift in Sources */,
 				19726E771FEB56F3008522F1 /* StudyGroup.swift in Sources */,
